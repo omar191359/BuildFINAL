@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+	<!--Gradiente-->
+	<div id="Gradiente"></div>
+	<!--Header-->
+	
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width">
+		<link rel="icon" sizes="any" href="favicon.ico" type="image/x-icon">
+		<meta name="generator" content="Astro v1.6.12">
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+		<meta name="author" content="Omar">
+		<title>Proyectos | Morthlet</title>
+		<script src="https://kit.fontawesome.com/398b08d3d7.js" crossorigin="anonymous"></script>
+		
+		<!--Opción AOS para animaciones al scrollear x-icon  svg+xml-->
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js" crossorigin="anonymous"></script>
+
+		<script>
+			AOS.init({
+				disable: 'mobile'});
+	  	</script>
+
+	  	<script>
+		  AOS.init({
+			disable: function() {
+			  var maxWidth = 800;
+			  return window.innerWidth < maxWidth;
+			}
+		  });
+	    </script>
+
+	
+
+	<!--Body-->
+		
+		
+		<!--NavBar-->	
+		<nav class="navbar navbar-expand-sm position-fixed sticky-top container-fluid">
+	    <div class="gradienteNav position-fixed sticky-top container-fluid"></div>
+			<div class="contenidoNavbar container">
+			  <a class="navbar-brand" href="/">MORTHLET</a>
+			  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<img src="/icons/lines-w.svg" src="/icons/lines-w.svg" class="navbar-toggler-icon">
+			  </button>
+			  <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+			    <ul class="navbar-nav ">
+				  <li class="nav-item">
+					<a class="nav-link " aria-current="page" href="/">INICIO</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" aria-current="page" href="/sobremi">SOBRE MÍ</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" href="/galeria">PORTAFOLIO</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" aria-current="page" href="/proyecto">PROYECTOS</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" aria-current="page" href="/contacto">CONTACTO</a>
+				  </li>
+			    </ul>
+			  </div>
+			</div>
+		</nav>
+
+		<!-- Back to top button -->
+		<button type="button" class="btn btn-danger btn-floating btn-lg" id="btn-back-to-top">
+		<p>arriba</p><img src="icons/flecha-up-w.svg" class="icon">
+		</button>
+
+		<!--Todo lo que aparece de Layout en otros archivos aparecerá aquí (slot)-->
+		<link rel="stylesheet" href="/assets/contacto.e73e4681.css" /><script type="module">const l=document.querySelector(".navbar");window.addEventListener("scroll",()=>{window.scrollY>=56?l.classList.add("navbar-scrolled"):window.scrollY<56&&l.classList.remove("navbar-scrolled")});
+</script><main id="paginaProyectos">
+    
+    <!--SECCIÓN BANNER PROYECTOS-->
+	<section class="principal2 container-fluid text-center position-relative">
+		<div class="row">
+			<div class="col-12 bannerProyecto"></div>
+			<div class="gradienteNegro2"></div>
+		</div>
+	</section>
+
+    <!--SECCIÓN INTRODUCCIÓN-->
+    <section class="proyecto1 container-fluid text-center position-relative">
+        <div class="Introduccion container-fluid" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000" data-aos-anchor-placement="center-bottom">
+        <h1>PROYECTO: TENOCHTITLÁN</h1>
+        <svg height="30px" width="50%">
+            <line x1="0" y1="0" x2="100%" y2="0" style="stroke:rgb(255,255,255);stroke-width:4;text-align:center;"></line>
+        </svg>
+            <img src="images/4Projects/proyecto1Portada.webp" alt="Tenochtitlán" width="80%" class="p1Portada">
+            <p id="introP1">
+                "Tenochtitlán" es un proyecto creado con la finalidad
+                de exaltar la cultura prehispánica y su hermosa arquitectura. Esta 
+                nueva corriente de arte plasma a través de distintos soportes de arte
+                escenarios, personajes y temáticas correspondientes a ese periodo histórico
+                con el propósito de valorar más lo propio antes que lo de fuera.
+                <br><br>
+                Tenochtitlán consta de un proceso compuesto por varias etapas desde la
+                concepción de la idea, el bocetaje, puppet 2D, modelado 3D, rigging y 
+                animación que disfruté demasiado hacer. A continuación dejo este proceso
+                de manera un poco más detallada.
+            </p>
+        </div>
+    </section>
+
+    <!--SECCIÓN MOODBOARD E INSPIRACIÓN-->
+    <section class="Moodboard container-fluid text-center position-relative" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000" data-aos-anchor-placement="center-bottom">
+        <div class="infoMoodboard">
+			<h1>MOODBOARD E INSPIRACIÓN</h1>
+		</div>
+        <p id="moodP1">
+            Desde el inicio siempre tuve en mente crear un estilo "cartoon"
+            para restar de la seriedad que ya de por sí se le da a la historia en 
+            nuestro país. Por lo que tomé referencias no solo de imágenes ilustrativas
+            del estilo de vida de ese entonces, sino de algunas ilustraciones coloridas
+            que encontré en internet y de como se preserva en la actualidad la cultura
+            a través de bailes y ornamentación.
+            <br><br>
+            Tenochtitlán consta de un proceso compuesto por varias etapas desde la
+            concepción de la idea, el bocetaje, puppet 2D, modelado 3D, rigging y 
+            animación que disfruté demasiado hacer. A continuación dejo este proceso
+            de manera un poco más detallada. Este es el resultado de la búsqueda de 
+            referencias;
+        </p>
+        <div>
+            <img src="images/4Projects/proyecto1Moodboard.webp" alt="Tenochtitlán" class="p1Mood">
+        </div>
+        <p id="moodP1">El resultado es una mezcla de elementos propios de la cultura
+            mexicana prehispánica condensados en bocetos para dar forma a mi personaje 
+            principal. La idea es que este haga un recorrido místico entre las pirámides 
+            para conseguir un tesoro. Esto es lo que me llevo al proceso que describo
+            a continuación:
+        </p>
+    </section>
+
+    <!--SECCIÓN PRODUCCIÓN-->
+    <section class="proyecto2 container-fluid text-center position-relative">
+        <div class="Produccion container-fluid" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000" data-aos-anchor-placement="center-bottom">
+            <h1>PRODUCCIÓN</h1>
+            <!--Primera fila-->
+            <div class="row justify-content-center my-1">
+                <div class="container col-lg-6 col-sm-8 position-relative">
+                    <img src="images/4Projects/proyecto1Produccion1.webp" alt="Producción 1" class="p1Prod">
+                    <button class="botonProyectos" style="color:black; border:1px solid black">Concept Art</button>
+                </div>
+                <div class="container col-lg-6 col-sm-8 position-relative">
+                    <img src="images/4Projects/proyecto1Produccion2.webp" alt="Producción 2" class="p1Prod">
+                    <button class="botonProyectos">Caminata 2D</button>
+                </div>
+            </div>
+            <p id="prodP1">La primera etapa del proceso consistió en bocetar a nuestro personaje
+                principal: Mixtli. Se retomaron los rasgos característicos del mexicano pero además
+                se le quiso dar una estética de "extraterreste" a modo de experimentación.
+                Posterior al bocetaje se creó una marioneta, se articuló y se animó una caminata 
+                mediante After Effects.
+            </p>
+            <!--Segunda fila-->
+            <div class="row justify-content-center my-1">
+                <div class="container col-lg-6 col-sm-8 position-relative">
+                    <img src="images/4Projects/proyecto1Produccion3.webp" alt="Producción 1" class="p1Prod">
+                    <button class="botonProyectos">Modelado Y Rig</button>
+                </div>
+                <div class="container col-lg-6 col-sm-8 position-relative">
+                    <img src="images/4Projects/proyecto1Produccion4.webp" alt="Producción 2" class="p1Prod">
+                    <button class="botonProyectos">Render Final</button>
+                </div>
+            </div>
+            <p id="prodP1">Finalmente se procedió a modelar el personaje en 3D, hacer su esqueleto,
+                buscar referencias de movimientos humanos, modelar escenarios, texturizar y animar
+                cada una de las escenas para obtener el siguiente resultado:
+            </p>
+        </div>
+        <svg height="30px" width="50%">
+            <line x1="0" y1="0" x2="100%" y2="0" style="stroke:rgb(255,255,255);stroke-width:4;text-align:center;"></line>
+        </svg>
+        
+        <div>
+        <iframe width="800" height="500" src="https://www.youtube.com/embed/-VpT-8sbN1M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
+        gyroscope; picture-in-picture; web-share" allowfullscreen>
+        </iframe>
+        </div>
+
+    </section>
+</main>
+
+		<!--SCRIPTS-->
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+		<script src="/js/Galeria.js"></script>	
+		<script src="https://kit.fontawesome.com/398b08d3d7.js" crossorigin="anonymous"></script>
+
+		<!--Botón regresar arriba-->
+		<script src="/js/regresarArriba.js" crossorigin="anonymous"></script>
+
+		<!--https://www.youtube.com/watch?v=z70GTU3p72I -->
+		
+
+		<!--Footer-->
+		<footer class="text-center text-white">
+		<!-- Grid container -->
+		<div class="footerContenedor container pt-2">
+		  <!-- Section: Social media -->
+		  <section class="mb-2">
+			<!-- Facebook -->
+			<a class="btn btn-link btn-floating btn-lg text-white m-1" href="#!" role="button" data-mdb-ripple-color="white"><i class="fab fa-facebook-f"></i></a>
+	  
+			<!-- Twitter -->
+			<a class="btn btn-link btn-floating btn-lg text-white m-1" href="#!" role="button" data-mdb-ripple-color="white"><i class="fab fa-twitter"></i></a>
+	  
+			<!-- Google -->
+			<a class="btn btn-link btn-floating btn-lg text-white m-1" href="#!" role="button" data-mdb-ripple-color="white"><i class="fab fa-google"></i></a>
+	  
+			<!-- Instagram -->
+			<a class="btn btn-link btn-floating btn-lg text-white m-1" href="#!" role="button" data-mdb-ripple-color="white"><i class="fab fa-instagram"></i></a>
+	  
+			<!-- Linkedin -->
+			<a class="btn btn-link btn-floating btn-lg text-white m-1" href="#!" role="button" data-mdb-ripple-color="white"><i class="fab fa-linkedin"></i></a>
+			<!-- Github -->
+			<a class="btn btn-link btn-floating btn-lg text-white m-1" href="#!" role="button" data-mdb-ripple-color="white"><i class="fab fa-github"></i></a>
+		  </section>
+		  <!-- Section: Social media -->
+		</div>
+		<!-- Grid container -->
+	  
+		<!-- Copyright -->
+		<div class="copyright text-center text-white p-2" style="background-color: rgba(0, 0, 0, 0.2);">
+	      morthlet@gmail.com (462) 194 5314 <br>
+		  ©Morthlet 2022. Todos los derechos reservados.
+		</div>
+		</footer>
+
+		<!-- Script necesario para animación AOS -->
+		<script>
+			AOS.init();
+		</script>
+
+	</html>
